@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    font-family: 'One Night SansVN', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: scroll; */
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-top-container{
+    width: 100%;
+    height: 40%;
+    background-color: #005BAA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.logo {
+    width: 132px;
+    height: 100%;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: 'Segoe UI Light', sans-serif;;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #AAC8E3;
+}
+.left-menu{
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.right-menu{
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+
+.outline-search{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+.search-bar{
+    width: 60%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+}
+.search-bar input{
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color: #0077C8;
+}
+
+input::placeholder{
+    color: #b0afb0;
+    font-family: 'Segoe UI Light', sans-serif;
+}
+
+.material-symbols-outlined{
+    color: #0B62AE;
+    padding-right: 10px;
+}
+
+.bottom-top-container{
+    width: 100%;
+    height: 60%;
+    background-image: url('https://www.durexvietnam.vn/cdn/shop/collections/blue-balls-plp-bg_1920x.jpg?v=1592438182');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 15px;
+    padding-left: 75px;
+}
+
+
+.homepage a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: regular;
+}
+.homepage a:hover{
+    text-decoration: underline;
+}
+
+.homepage span{
+    color: #ffffff;
+}
+
+.homepage span.material-symbols-outlined{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.middle-container{
+    width: 100%;
+    height: fit-content;
+}
+h2{
+    color: #005BAA;
+    font-weight: 100;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}   
+.product-count{
+    color: #005BAA;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 30px 60px;
+}
+.product-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: flex-start;
+}
+.product-type{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.title{
+    color: #979797;
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 46px;
+
+}
+
+.size {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.size button{
+    width: 50px;
+    height: 40px;
+    border: 2px solid #7F7F7F;
+    background-color: #FFFFFF;
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap : 30px;
+}
+
+.size button:hover{
+    cursor: pointer;
+    border-color: #0077C8;
+    color: #7F7F7F;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 18px;
+    padding-top: 23px;
+    padding-left: 46px;
+    padding-right: 70px;
+    gap: 20px;
+    color: #979797;
+}
+
+.type:hover{
+    cursor: pointer;
+    border-color: #0077C8;
+}
+input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    accent-color: #ffffff;
+}
+
+input[type=checkbox]:hover{
+    cursor: pointer;
+    border-color: #0077C8;
+}
+
+.type-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-3{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-1{
+    width: 26%;
+    border: 1px solid black;
+    color: #005BAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.product-1-1{
+    color: #005BAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+.product-1-1:hover{
+    cursor: pointer;
+    color: #000000;
+}
+.product-1 img{
+    width: 50%;
+    height: 50%;
+}
+
+
+.product-2{
+    width: 26%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.product-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-3{
+    width: 26%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.product-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-container{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    background-color: aquamarine;
+}
